@@ -1,0 +1,722 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallex</title>
+    <link rel="stylesheet" href="assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="icon" href="favicon.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section id="slide">
+        <div class="header-img">
+          <img src="assets/images/expo.png" alt="" />
+        </div>
+        <div class="container">
+          <div class="description">
+            <h2>Wallex Ecosystem</h2>
+            <!-- <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna
+      </p> -->
+          </div>
+          <div class="arrow-down">
+            <a href="#about_us"
+              ><img src="assets/images/slide-arrow.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section id="about_us">
+        <div class="container">
+          <h2>About us</h2>
+          <p>
+            WALLEX was founded to make the blockchain ecosystem and digital
+            currencies to be part of the world’s finance evolution. We believe
+            that blockchain and digital currency brings financial freedom to the
+            world and improves people's lives significantly. In Wallex we are
+            gathered a group of talented and motivated technical and business
+            people who are experts and believe in Wallex’s mission strongly.
+          </p>
+          <div class="about-img">
+            <img src="assets/images/about-us.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="vision">
+        <div class="container">
+          <h2>Our Mission and Vision Value</h2>
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+              <div class="box-vision">
+                <div class="row">
+                  <div class="col-md-7 col-7 description">
+                    <span>Mission</span>
+                    <p>
+                      Building innovative fintech solutions to bring freedom,
+                      growth, opportunities, and safe accessibility to the
+                      world.
+                    </p>
+                  </div>
+                  <div class="col-md-5 col-5">
+                    <img src="assets/images/mission.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <div class="box-vision">
+                <div class="row">
+                  <div class="col-md-7 col-7 description">
+                    <span>Vision</span>
+                    <p>
+                      The economic paradigm shift which empowers people around
+                      the globe and makes difference in their lives
+                    </p>
+                  </div>
+                  <div class="col-md-5 col-5">
+                    <img src="assets/images/vision.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="objective">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="obj-img" src="assets/images/objectives.png" alt="" />
+            </div>
+            <div class="col-md-6">
+              <h3>Objectives</h3>
+              <ul class="objective-choose">
+                <li>
+                  <img src="assets/images/objective-ico.png" alt="" /><span
+                    >To build up a sustainable business
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/objective-ico.png" alt="" /><span
+                    >To be Innovative
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/objective-ico.png" alt="" /><span
+                    >To meet all requirements of the target groups fast
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/objective-ico.png" alt="" /><span
+                    >To enter international markets
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/objective-ico.png" alt="" /><span
+                    >To build a reliable and trustable brand
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/objective-ico.png" alt="" /><span
+                    >To maximize profitability
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="form-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 description">
+              <!-- register form  -->
+              <form
+                action="./user-store.php"
+                method="post"
+                id="registerForm"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <!-- First tab -->
+                <div class="first-tab">
+                  <!-- form title -->
+                  <div class="form-group">
+                    <h3 class="form-title">Sign-in Form</h3>
+                  </div>
+                  <!-- FullName Input -->
+                  <div class="form-group">
+                    <label for="fullName">Name</label>
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      class="form-control"
+                    />
+                    <small id="error-fullName" class="error"></small>
+                  </div>
+                  <!-- Phone Input -->
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" class="form-control" id="phone" />
+                    <small id="error-phone" class="error"></small>
+                  </div>
+                  <!-- next-btn -->
+                  <div class="form-group text-center">
+                    <input
+                      type="button"
+                      name="next"
+                      class="next-btn"
+                      value="Next"
+                    />
+                  </div>
+                </div>
+                <!-- Second tab -->
+                <div class="second-tab">
+                  <!-- Email Input -->
+                  <div class="form-group">
+                    <label for="email">Phone Number</label>
+                    <input type="email" class="form-control" id="email" />
+                    <small id="error-email" class="error"></small>
+                  </div>
+                  <!-- Description Input -->
+                  <div class="form-group">
+                    <label for="description">Description</label>
+                    <input type="text" class="form-control" id="description" />
+                  </div>
+                  <!-- submit button -->
+                  <div class="text-center">
+                    <input
+                      type="submit"
+                      name="submit"
+                      class="submit-btn"
+                      value="Submit"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <img src="assets/images/why.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="company">
+        <h2>Our company values</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="flip-left">
+              <div class="box-company">
+                <p>
+                  <span class="primary-color">Reliable</span
+                  ><span>Customers can trust Wallex</span>
+                </p>
+                <p>
+                  <span class="primary-color">Transparency</span
+                  ><span
+                    >Bring clarity to all levels as well as our product</span
+                  >
+                </p>
+                <p>
+                  <span class="primary-color">Innovative</span
+                  ><span>Simple and out of box solutionr</span>
+                </p>
+                <p>
+                  <span class="primary-color">Ambitious</span
+                  ><span>Go big or go home</span>
+                </p>
+                <p>
+                  <span class="primary-color">Exceptional</span
+                  ><span
+                    >Perfect in not enough, Wallex has a world-class quality
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="flip-right">
+              <div class="box-company">
+                <p>
+                  <span class="primary-color">Be the Cause</span
+                  ><span>Agile and explorative</span>
+                </p>
+                <p>
+                  <span class="primary-color">Continues Reborn</span
+                  ><span>Doer and fighter</span>
+                </p>
+                <p>
+                  <span class="primary-color">Inspiring</span
+                  ><span>Wallex helps users find aim</span>
+                </p>
+                <p>
+                  <span class="primary-color">Be happy</span
+                  ><span>Employee and customers satisfaction</span>
+                </p>
+                <p>
+                  <span class="primary-color">Integrity & Consistency</span
+                  ><span>Accountable for what we deliver</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="why">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 description">
+              <h3>Why do people choose WALLEX?</h3>
+              <ul class="item-choose">
+                <li>
+                  <img src="assets/images/why-icone1.png" alt="" /><span
+                    >Wallex is easy to use. It has a friendly user experience
+                    and simple to follow
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/why-icone2.png" alt="" /><span
+                    >Supports the most popular cryptocurrencies
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/why-icone3.png" alt="" /><span
+                    >Wallex has a flawless transaction and trading experience
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/why-icone4.png" alt="" /><span
+                    >Provides a secure platform
+                  </span>
+                </li>
+                <li>
+                  <img src="assets/images/why-icone5.png" alt="" /><span
+                    >Wallex is easy to use. It has a friendly user experience
+                    and simple to follow
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5">
+              <img src="assets/images/why.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="platform">
+        <h2>Our Platforms</h2>
+        <div class="container img-box">
+          <div class="row">
+            <div class="col-md-6 img-left" data-aos="zoom-in">
+              <img src="assets/images/platform1.png" alt="" />
+            </div>
+            <div class="col-md-6 img-right" data-aos="zoom-in">
+              <img src="assets/images/platform2.png" alt="" />
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <img src="assets/images/platform3.png" alt="" />
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <img src="assets/images/platform4.png" alt="" />
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <!-- Button trigger modal -->
+
+              <a href="" data-bs-toggle="modal" data-bs-target="#tradeModal"
+                ><img src="assets/images/platform5.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper myplatform">
+          <div id="mobile-swiper" class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/images/platform-slide1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/platform-slide2.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/platform-slide3.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/platform-slide4.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/platform-slide5.png" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section id="facts">
+        <h2>Facts and Figures</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico1.png" alt="" />
+                <p>One of the leading crypto exchanges in Iran</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico2.png" alt="" />
+                <p>Four years of experience (Since 2017)</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico3.png" alt="" />
+                <p>Reliable and secure Product</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico4.png" alt="" />
+                <p>Dedicated and professional Team (250 in total)</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico5.png" alt="" />
+                <p>One of the leading crypto exchanges in Iran</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico6.png" alt="" />
+                <p>It has not been hacked despite numerous attacks</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box-fact">
+                <img src="assets/images/fact-ico7.png" alt="" />
+                <p>More than 600,000 Users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="feature-holder">
+          <div class="container">
+            <h2>Upcoming Features</h2>
+            <div class="row item-feature">
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone1.png" alt="" />
+                <p>Merging NFT platform with Wallex</p>
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone2.png" alt="" />
+                <p>60 coins listed on Wallex by end of 2021</p>
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone3.png" alt="" />
+                <p>
+                  A bot friendly trade engine that can handle more than 1K
+                  request per second
+                </p>
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone4.png" alt="" />
+                <p>Adding Profit & Loss Panel</p>
+              </div>
+
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone5.png" alt="" />
+                <p>
+                  Designing a borrow feature to help our users to maximise their
+                  earnings
+                </p>
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone6.png" alt="" />
+                <p>Adding Grid Bot to Wallex</p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#wallexModal">
+                  <img src="assets/images/more.png" alt=""
+                /></a>
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone7.png" alt="" />
+                <p>Crypto Payment Gateway</p>
+                <a href="" data-bs-toggle="modal" data-bs-target="#cryptoModal">
+                  <img src="assets/images/more.png" alt=""
+                /></a>
+              </div>
+              <div class="col-md-3 col-6">
+                <img src="assets/images/feature-icone8.png" alt="" />
+                <p>Expanding the business in Iraq and Turkey</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="leadership">
+        <div class="container">
+          <h2>Leadership and Board of Directors</h2>
+          <div class="row">
+            <div class="col-md-4 col-6">
+              <div class="img-box">
+                <img src="assets/images/amin-amini.png" alt="" />
+              </div>
+              <div class="box-leader">
+                <span class="name">Amin Amini</span>
+                <p>Co-Founder and CEO</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div class="img-box">
+                <img src="assets/images/mehdi-youseftabar.png" alt="" />
+              </div>
+              <div class="box-leader">
+                <span class="name">Mehdi Youseftabar</span>
+                <p>Technical Team Lead</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div class="img-box">
+                <img src="assets/images/jinus-roshandel.png" alt="" />
+              </div>
+              <div class="box-leader">
+                <span class="name">Jinus Roshandel</span>
+                <p>Vice President</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div class="img-box">
+                <img src="assets/images/mohammad-dabir.png" alt="" />
+              </div>
+              <div class="box-leader">
+                <span class="name">S. Mohammad Dabir</span>
+                <p>Head of Blockchain Team</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div class="img-box">
+                <img src="assets/images/sara-rabiee.png" alt="" />
+              </div>
+              <div class="box-leader">
+                <span class="name">Sara Rabiee</span>
+                <p>VP of Product</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div class="img-box">
+                <img src="assets/images/ehsan-mehdizadeh.png" alt="" />
+              </div>
+              <div class="box-leader">
+                <span class="name">Ehsan Mehdizadeh</span>
+                <p>Chief marketing officer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <h2>Our Team Members</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="assets/images/team1.png" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="assets/images/team2.png" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="assets/images/team3.png" alt="" />
+            </div>
+            <div class="col-md-3">
+              <img src="assets/images/team4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img src="assets/images/logo-footer.png" alt="" />
+        <p>Wallex ecosystem</p>
+
+        <div class="copyright">
+          <img src="assets/images/harmony.png" alt="" />
+        </div>
+      </footer>
+    </div>
+    <!-- Start Modal Trade -->
+    <div
+      class="modal fade"
+      id="tradeModal"
+      tabindex="-1"
+      aria-labelledby="tradeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tradeModalLabel">
+              More about Algo Trading
+            </h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              • An RL(Reinforcement Learning) based agent that can trade in
+              defined scenarios using real-time data
+            </p>
+            <p>
+              • A low-risk agent that tries to understand the ups and downs of
+              the market and trades rationally
+            </p>
+            <p>
+              • The trained model at this time, can achieve 4-5% above the
+              market’s natural profit without the trading fees (1-2% by
+              considering the trading fees)
+            </p>
+            <p>• A built-in stop-loss mechanism</p>
+            <p>• Still needs a supervisor for a good starting point</p>
+            <p>• Acts better in the up-trend markets</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal trade -->
+
+    <!-- Start Modal Adding Grid Bot to Wallex. -->
+    <div
+      class="modal fade"
+      id="WallexModal"
+      tabindex="-1"
+      aria-labelledby="WallexModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="WallexModalLabel">
+              Adding Grid Bot to Wallex
+            </h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              Grid Trading Bot is a trading bot that assists you in carrying out
+              the Grid Trading Strategy. It enables you to place a series of
+              purchase and sell orders within a given price range. When a sell
+              order is fully executed, the bot instantly places another purchase
+              order at a lower grid level, and vice versa. This robot guarantees
+              a definite profit
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Adding Grid Bot to Wallex. -->
+    <!-- Start Modal Crypto Payment Gateway . -->
+    <div
+      class="modal fade"
+      id="cryptoModal"
+      tabindex="-1"
+      aria-labelledby="cryptoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cryptoModalLabel">
+              Crypto Payment Gateway
+            </h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              The crypto payment gateway enables merchants to use Bitcoin and
+              altcoins for their business and also to accept payments in
+              traditional currencies such as USD, Euro, etc. It also provides
+              plugins for eCommerce platforms.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Crypto Payment Gateway . -->
+    <div class="navigation-mobile">
+      <ul>
+        <li>
+          <a href="#about_us">
+            <img src="assets/images/navigation-about.png" alt="" />
+            <p>About us</p>
+          </a>
+        </li>
+        <li>
+          <a href="#vision">
+            <img src="assets/images/navigation-vision.png" alt="" />
+            <p>Visions</p>
+          </a>
+        </li>
+        <li>
+          <a href="#platform">
+            <img src="assets/images/navigation-platform.png" alt="" />
+            <p>Platform</p>
+          </a>
+        </li>
+        <li>
+          <a href="#features">
+            <img src="assets/images/navigation-feature.png" alt="" />
+            <p>Feature</p>
+          </a>
+        </li>
+        <li>
+          <a href="#team">
+            <img src="assets/images/navigation-team.png" alt="" />
+            <p>Team</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>

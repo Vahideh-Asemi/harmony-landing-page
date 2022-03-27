@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- sign-in form for Admin-->
+
+    <section class="form-section">
+      <div class="container">
+        <div class="form-box">
+          <form
+            action="./login.php"
+            method="post"
+            id="loginForm"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <fieldset>
+              <div class="form-group text-center">
+                <h3 class="form-title">Sign-in Form just for admin</h3>
+              </div>
+              <div class="form-group">
+                <div class="tab form-wrapper">
+                  <!-- username input -->
+                  <div class="form-group">
+                    <label for="username" class="blueText form-label"
+                      >username</label
+                    >
+                    <input
+                      id="username"
+                      name="username"
+                      type="text"
+                      class="form-control"
+                    />
+                    <small id="error-username" class="error"></small>
+                  </div>
+                  <!-- password input -->
+                  <div class="form-group">
+                    <label for="password" class="blueText form-label"
+                      >password</label
+                    >
+                    <input
+                      id="password"
+                      name="password"
+                      type="password"
+                      class="form-control"
+                    />
+                    <small id="error-password" class="error"></small>
+                  </div>
+                  <!-- submit button -->
+                  <div class="text-center">
+                    <input
+                      type="submit"
+                      name="submit"
+                      class="login-btn"
+                      value="submit"
+                    />
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="./assets/js/form.js"></script>
+  </body>
+</html>
